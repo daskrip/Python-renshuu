@@ -1,4 +1,5 @@
 from typing import *
+import re
 
 class Student():
     def __init__(self, id: str, name: str, lab_1: str, lab_2: str, assignment: str, midterm: str, final_exam: str) -> None:
